@@ -17,7 +17,7 @@ import {
     Center,
 } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
-import { CartWidget } from '../index'
+import { CartWidget } from '../CartWidget/CartWidget'
 import { useGetAllCategories } from '../../hooks/useGetAllCategories'
 
 export function NavBar() {
