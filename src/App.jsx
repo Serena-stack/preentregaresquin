@@ -1,23 +1,17 @@
-import { ChakraProvider, Flex } from '@chakra-ui/icons';
-import ItemListContainer from './assets/components/ItemListContainer/ItemListCointainer';
-import NavBar from './assets/components/NavBar/NavBar';
+import { ChakraProvider } from '@chakra-ui/icons'
+import { React } from 'react'
+import layout from './assets/layout/layout'
+import Home from './assets/pages/Home'
 
 
 
 
 function App() {
-
-
-
-
 return (
     <>
     <ChakraProvider>
     <Layout>
-    <ItemListContainer greeting="Bienvenidos!"/>
-    <Flex alignItems={"center"} textAlign={"center"} justifyContent={"center"}>
-        <Counter/>
-    </Flex>
+    <Home/>
     </Layout>
     </ChakraProvider>
     </>
