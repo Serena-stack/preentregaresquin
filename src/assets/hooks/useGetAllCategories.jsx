@@ -7,7 +7,7 @@ export const useGetAllCategories = ()=>{
     useEffect(() => {
         getAllCategories(30)
         .then((res)=>{setCategories(res.data)})
-        .catch((err) => { console.log(err) })
+        .catch((error) => { console.log(err) })
 }, [])
     return {categories}
 }
