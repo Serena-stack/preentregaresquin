@@ -10,3 +10,7 @@ export async function getAllCategories(){
 export async function gerProductById(id){
     return axios.get(`https://dummyjson.com/products/${id}`)
 }
+
+export async function getProductsByCategory(id) {
+    return await axios.get ('https://dummyjson.com/products/category/${id}');
+}
